@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 736px;
+  height: 244px;
+  border-top: 1px solid var(--gray-400);
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  flex-direction: column;
+  color: var(--gray-300);
+
+  p {
+    font-weight: 700;
+    margin-top: 1rem;
+    line-height: 1.4rem;
+  }
+  span {
+    font-weight: 400;
+  }
+}

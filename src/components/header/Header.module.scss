@@ -1,0 +1,14 @@
+.header {
+  max-width: 1440px;
+  max-height: 200px;
+  background: var(--gray-700);
+  display: flex;
+  justify-content: center;
+
+  img {
+    max-width: 7.875rem;
+    height: 3rem;
+    margin-top: 4.5rem;
+    margin-bottom: 5rem;
+  }
+}
